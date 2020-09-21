@@ -1,0 +1,38 @@
+.aboutMe-content-skills {
+    margin: 15px;
+    h4{
+        font-size: 1.2rem;
+    }
+    .content-skill-items{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 5vh;
+        .skill-items{
+            background: $background-aboutMe-skills;
+            width: 90px;
+            height: 90px;
+            align-items: center;
+            margin-top: 2vh;
+            margin-right: 5px;
+            margin-left: 5%;
+            margin-bottom: 3%;
+            i{
+                font-size: 2rem;
+                margin-top: 3vh;
+                margin-bottom: 2vh;
+                color: $color2;
+            }
+            p{
+                font-size: 0.8rem;
+                color: $text-secondary-color;
+            }
+            &:hover i, &:hover p{
+                color: $color3;
+                font-weight: 600;
+                transition: all 0.5s
+            }
+            
+        }
+    }
+}

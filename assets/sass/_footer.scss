@@ -1,0 +1,15 @@
+footer{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: $hover-secondary-color;
+    p{
+        padding: 15px;
+        color: $text-secondary-color;
+        a{
+            color: $text-lists-color;
+            font-weight: 600;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.coverPage{
+    .coverPage-background{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.3);
+        position: relative;
+        &:after {
+            content: '';
+            position: absolute;
+            background-image: url('../img/fondo-notebook.jpg');
+            background-size: cover; 
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+            filter: brightness(50%);
+        }
+    }
+}
+
+@import './coverPage/coverPage-image';
+@import './coverPage/coverPage-info';
+@import './coverPage/media-queris';

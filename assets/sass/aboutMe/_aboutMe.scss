@@ -1,0 +1,19 @@
+/* About Me */
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15vh;
+    h3::after{
+        content: "";
+        display: block;
+        width: 120px;
+        height: 5px;
+        background: $details-colors;
+        margin: 10px auto;
+    }
+}
+
+@import './contentAboutMe/aboutMe-content';
+@import './contentTechnologies/content-skills';
+@import './media_querys';

@@ -1,0 +1,48 @@
+@media (min-width: 720px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        .header-logo{
+            display: flex; 
+            align-items: center;
+            margin-left: 5%;
+            .logo{
+                font-size: 2.3rem;
+            }
+            .hamburger {
+                display: none;
+            }
+        }
+        .header-navbar {
+            margin-top: 0;
+            margin-right: 5%;
+            background: none;
+            .menu {
+                clear: none;
+                display: flex;
+                flex-direction: row;
+                max-height: none;
+                height: 100%;
+
+                li{
+                    margin-top: 0;
+                    margin-right: 20px;
+                    padding: 20px;
+                    a{
+                        font-size: 1.2rem;
+                        color: $text-secondary-color;
+                        &:hover{
+                            color: $text-lists-color;
+                        }
+                    }
+                    &:hover{
+                        background: none;
+                        font-weight: bold;
+                    }
+                }
+            }
+        } 
+    } 
+}

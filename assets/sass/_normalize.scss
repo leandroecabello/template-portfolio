@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: $text-primary-color;
+    background: $color2;
+    a {
+        text-decoration: none;
+    }
+    h3{
+        font-size: 1.5rem;
+        &::after{
+            content: "";
+            display: block;
+            width: 120px;
+            height: 5px;
+            background: $details-colors;
+            margin: 10px auto;
+        }
+    }
+}

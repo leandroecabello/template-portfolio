@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <!-- fonts family -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+        <!-- CSS -->
+        <link rel="stylesheet" href="./assets/css/styles.css">
+        
+        <!-- SCRIPTS  -->
+        <!-- font awesome -->
+        <script src="https://kit.fontawesome.com/d99267f501.js" crossorigin="anonymous"></script>
+        <!-- ScrollReveal  -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+    </head>
+    <body>
+        <header id="header">
+            <div class="header-logo">
+                <a href="#" class="logo">LC</a>
+
+                <div class="hamburger">
+                    <div class="_layer -top"></div>
+                    <div class="_layer -mid"></div>
+                    <div class="_layer -bottom"></div>
+                </div>
+            </div>
+            <nav class="header-navbar">
+                <ul class="menu">
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="coverPage" aria-label="cover section">
+            <div class="coverPage-background">
+                <div class="coverPage-image">
+                    <img src="./assets/img/profilePhoto/DSC_0065.jpg" alt="my_image">
+                    <!-- spinner -->
+                    <div class="lds-ripple"><div></div><div></div></div>
+                </div>
+                <div class="coverPage-info">
+                    <h3 id="coverPage-info-greeting">
+                        ¡HOLA!
+                    </h3>
+                    <h1 id="coverPage-info-presentation">
+                        Soy Leandro 
+                        <strong>Cabello</strong>
+                    </h1>
+                    <span id="coverPage-info-profession">&lt; Backend Developer &gt;</span>
+                </div>
+            </div>    
+        </section>
+        
+        <main class="container">
+            <article class="aboutMe">
+                <h3 id="aboutMe-title">About Me</h3>
+                <div class="aboutMe-content">
+                    <p>
+                        Argentino, de Córdoba capital. Un
+                        papá fulltime que disfruta pasar tiempo con 
+                        su familia. Fanatico del futbol y el asado. 
+                        Un apasionado de la tecnología que comenzo a programar por 
+                        hobby y le gustaría ayudarte a llevar ese proyecto, idea, producto,
+                        negocio, etc. a una plataforma online buscando la 
+                        mejor solución y adaptabilidad. 
+                    </p>
+                
+                    <div class="aboutMe-content-skills">
+                        <h4 id="aboutMe-content-skills-title">SKILLS</h4>
+                        <div class="content-skill-items">
+                            <div class="skill-items">
+                                <i class="fab fa-html5"></i>
+                                <p>HTML5</p>
+                            </div>
+                            <div class="skill-items">
+                                <i class="fab fa-css3-alt"></i>
+                                <p>CSS3</p>
+                            </div>
+                            <div class="skill-items">
+                                <i class="fab fa-sass"></i>
+                                <p>SASS</p>
+                            </div>
+                            <div class="skill-items">
+                                <i class="fab fa-bootstrap"></i>
+                                <p>BOOTSTRAP</p>
+                            </div>
+                            <div class="skill-items">
+                                <i class="fab fa-js-square"></i>
+                                <p>JAVASCRIPT</p>
+                            </div>
+                            <div class="skill-items">
+                                <i class="fab fa-node-js"></i>
+                                <p>NODEJS</p>
+                            </div>
+                            <div class="skill-items">
+                                <i class="fas fa-database"></i>
+                                <p>MONGODB</p>
+                            </div>
+                            <div class="skill-items">
+                                <i class="fas fa-database"></i>
+                                <p>MYSQL</p>
+                            </div>
+                            <div class="skill-items">
+                                <i class="fab fa-git-alt"></i>
+                                <p>GIT</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </article>
+
+            <section class="projects" aria-label="project section">
+                <h3>Proyectos</h3>
+                <article class="projects-content">
+                    <picture class="projects-content-project">
+                        <img src="./assets/img/fondo-notebook.jpg" alt="fondo-notebook">
+                        <!-- spinner -->
+                        <div class="lds-ripple"><div></div><div></div></div>
+
+                        <div class="text-project">
+                            <h2>Proyecto</h2>
+                            <p> texto </p>
+                            <button>IR A PAGINA</button>
+                        </div>
+                    </picture>
+                    <picture class="projects-content-project">
+                        <img src="./assets/img/fondo-notebook.jpg" alt="fondo-notebook">
+                        <!-- spinner -->
+                        <div class="lds-ripple"><div></div><div></div></div>
+
+                        <div class="text-project">
+                            <h2>Proyecto</h2>
+                            <p> texto </p>
+                            <button>IR A PAGINA</button>
+                        </div>
+                    </picture>
+                    <picture class="projects-content-project">
+                        <img src="./assets/img/fondo-notebook.jpg" alt="fondo-notebook">
+                        <!-- spinner -->
+                        <div class="lds-ripple"><div></div><div></div></div>
+
+                        <div class="text-project">
+                            <h2>Proyecto</h2>
+                            <p> texto </p>
+                            <button>IR A PAGINA</button>
+                        </div>
+                    </picture>
+                </article>
+            </section>
+
+            <article class="contact">
+                <h3>Contacto</h3>
+                <div class="content-contacts">
+                    <div class="content-contacts-icons">
+                        <a href="#"><i class="far fa-envelope"></i></a>
+                    </div>
+                    <div class="content-contacts-icons">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                    <div class="content-contacts-icons">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </article>
+        </main>
+
+        <footer>
+            <p> Copyright &copy; 2020 <a href="#">Leandro E. Cabello</a> <br> 
+                All Rigths Reserve
+            </p>
+        </footer>
+
+        <script src="./assets/js/main.js"></script>
+    </body>
+</html>

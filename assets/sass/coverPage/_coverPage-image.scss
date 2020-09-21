@@ -1,0 +1,29 @@
+.coverPage{
+    .coverPage-image{
+        height: 250px;
+        border-radius: 50%;
+        transition: filter 0.3s;
+        //z-index: 100;
+        overflow: hidden;
+        background: transparent;
+        box-shadow: 1px 3px 5px 2px rgba(33,33,33,1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            height: 250px;
+            border-radius: 50%;
+            filter: grayscale(1);
+            transition: filter 0.3s;
+            position: relative;
+            &:hover{
+                transition: filter 0.3s;
+                filter: grayscale(0);
+            }
+        } 
+        .lds-ripple {
+            position: absolute;
+            z-index: -1;
+        }
+    }
+}
