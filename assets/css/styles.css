@@ -29,6 +29,7 @@ body h3::after {
   margin: 10px auto;
 }
 
+/* Spinner */
 .lds-ripple {
   display: inline-block;
   position: relative;
@@ -64,6 +65,7 @@ body h3::after {
     opacity: 0;
   }
 }
+/* header */
 header {
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
   position: fixed;
@@ -157,6 +159,7 @@ header {
   transform: translateY(-200%) rotate(135deg) !important;
 }
 
+/* Menu */
 .header-navbar {
   display: flex;
   justify-content: center;
@@ -195,6 +198,7 @@ header {
   transition: max-height 0.7s ease-out;
 }
 
+/* media querys header */
 @media (min-width: 720px) {
   header {
     display: flex;
@@ -242,6 +246,7 @@ header {
     font-weight: bold;
   }
 }
+/* Cover Page */
 .coverPage .coverPage-background {
   display: flex;
   flex-direction: column;
@@ -265,6 +270,7 @@ header {
   filter: brightness(50%);
 }
 
+/* Cover Page */
 .coverPage .coverPage-image {
   height: 250px;
   border-radius: 50%;
@@ -292,6 +298,7 @@ header {
   z-index: -1;
 }
 
+/* Cover Page Info */
 .coverPage .coverPage-info {
   display: flex;
   flex-direction: column;
@@ -316,6 +323,7 @@ header {
   display: none;
 }
 
+/* Media Querys Cover Page */
 @media (min-width: 720px) {
   .coverPage .coverPage-info {
     /* 
@@ -400,8 +408,8 @@ header {
   transition: all 0.5s;
 }
 
+/* Media Querys About Me */
 @media (min-width: 1020px) {
-  /* About Me */
   .aboutMe-content {
     display: flex;
     justify-content: space-between;
