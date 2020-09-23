@@ -1,5 +1,9 @@
 /* main */
 
+.container{
+    margin: 15px;
+}
+
 @import './aboutMe/aboutMe';
 @import './projects/projects';
-@import './contact';
+@import './contact/contact';

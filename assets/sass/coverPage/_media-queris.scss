@@ -3,25 +3,22 @@
     .coverPage {
         .coverPage-info{
             h1 {
-                //margin-bottom: 3vh;
                 font-size: 3.5rem;
             }
             h3, span {
                 font-size: 2rem;
-            }/* 
-            h3 {
-                margin-bottom: 3vh;
-            } */
+            }
         }
     }
 }
 
+/* Media Querys Cover Page */
 @media (min-width: 1024px) {
     .coverPage{
         .coverPage-background {
             display: flex;
             flex-direction: row;
-            justify-content: space-around;
+            justify-content: space-evenly;
         }
     }
 }

@@ -1,0 +1,22 @@
+.content-contacts{
+    margin-top: 5vh;
+    .content-contacts-icons{
+        margin-top: 10vh;
+        a{
+            display: flex;
+            flex-direction: column;
+            color: $background-projects-info;
+            font-weight: 600;
+            i{
+                margin-bottom: 3vh;
+                font-size: 2.8rem;
+                color: $background-aboutMe-skills;
+                &:hover{
+                    transition: all 0.5s;
+                    transform: scale(1.50, 1.50);
+                    text-shadow: 1px 1px $background-projects-info;
+                }
+            }
+        }
+    }
+}

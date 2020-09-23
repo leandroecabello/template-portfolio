@@ -33,14 +33,13 @@
                     padding: 20px;
                     a{
                         font-size: 1.2rem;
-                        color: $text-secondary-color;
-                        &:hover{
-                            color: $text-lists-color;
-                        }
                     }
                     &:hover{
                         background: none;
-                        font-weight: bold;
+                    } 
+                    &:hover a {
+                        color: $text-lists-color;
+                        text-shadow: 1px 1px $color3;
                     }
                 }
             }

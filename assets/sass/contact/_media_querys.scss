@@ -1,0 +1,14 @@
+/* Contact Media Querys */
+@media (min-width: 1024px) {
+    .content-contacts{
+        display: flex;
+        justify-content: space-evenly;
+        .content-contacts-icons{
+            a{
+                i{
+                    font-size: 3.2rem;
+                }
+            }
+        } 
+    }
+}

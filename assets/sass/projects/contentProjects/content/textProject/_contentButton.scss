@@ -1,0 +1,26 @@
+.content-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2vh;
+    .button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        font-size: 1rem;
+        color: $text-secondary-color;
+        background: $background-aboutMe-skills;
+        border-radius: 20px;
+        width: 180px;
+        height: 38px;
+        i{
+            padding-right: 5px;
+        }
+        &:hover{
+            font-weight: 600;
+            box-shadow: 2px 2px $background-projects-info;
+        }
+    }
+}

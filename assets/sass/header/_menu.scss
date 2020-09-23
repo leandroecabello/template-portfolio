@@ -1,0 +1,11 @@
+/* Menu */
+.menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .5s ease-out;
+} 
+.menu.active {
+    clear: both;
+    max-height: 100vh;
+    transition: max-height .7s ease-out;
+}

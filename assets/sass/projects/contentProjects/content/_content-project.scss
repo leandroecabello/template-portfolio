@@ -1,0 +1,22 @@
+.content-project{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 280px;
+    margin-bottom: 5vh;
+    position: relative;
+    overflow: hidden;
+    &:hover .text-project{
+        visibility: visible;
+        opacity: 1;
+        transition: all 0.5s;
+        transform: translateY(-300px);
+    }
+    &:hover img{
+        transition: all 1s;
+        transform: scale(1.3);
+    }
+}
+
+@import './contentImage/contentImage';
+@import './textProject/textProject';

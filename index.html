@@ -4,11 +4,11 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portfolio</title>
+        <!-- <link rel="shortcut icon" type="image/x-icon" href="assets/logo/logo.ico"> -->
         <!-- fonts family -->
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
         <!-- CSS -->
-        <link rel="stylesheet" href="./assets/css/styles.css">
-        
+        <link rel="stylesheet" href="./assets/css/styles.css"> 
         <!-- SCRIPTS  -->
         <!-- font awesome -->
         <script src="https://kit.fontawesome.com/d99267f501.js" crossorigin="anonymous"></script>
@@ -28,9 +28,9 @@
             </div>
             <nav class="header-navbar">
                 <ul class="menu">
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#about-me" class="linkMenu">About Me</a></li>
+                    <li><a href="#project" class="linkMenu">Projects</a></li>
+                    <li><a href="#contact" class="linkMenu">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -56,7 +56,7 @@
         </section>
         
         <main class="container">
-            <article class="aboutMe">
+            <article class="aboutMe" id="about-me">
                 <h3 id="aboutMe-title">About Me</h3>
                 <div class="aboutMe-content">
                     <p>
@@ -113,56 +113,100 @@
                 </div>    
             </article>
 
-            <section class="projects" aria-label="project section">
-                <h3>Proyectos</h3>
-                <article class="projects-content">
-                    <picture class="projects-content-project">
-                        <img src="./assets/img/fondo-notebook.jpg" alt="fondo-notebook">
-                        <!-- spinner -->
-                        <div class="lds-ripple"><div></div><div></div></div>
-
+            <section class="projects" aria-label="project section" id="project">
+                <h3 id="project-title">Proyectos</h3>
+                <div class="projects-content">
+                    <article class="content-project">
+                        <picture class="content-image">
+                            <img src="./assets/img/projectImages/podcast.jpg" alt="fondo-notebook">
+                            <!-- spinner -->
+                            <div class="lds-ripple"><div></div><div></div></div>
+                        </picture>    
                         <div class="text-project">
-                            <h2>Proyecto</h2>
-                            <p> texto </p>
-                            <button>IR A PAGINA</button>
+                            <h4> Podcast Channel</h4>
+                            <p> HTML - CSS - SASS </p>
+                            <div class="content-buttons">
+                                <a href="https://bit.ly/3mGciwV" class="button" target="_blank">
+                                    <i class="fas fa-globe-americas"></i>
+                                    Website
+                                </a>
+                                <a href="https://bit.ly/2FVHFCT" class="button" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    Repositorio
+                                </a>
+                            </div>    
                         </div>
-                    </picture>
-                    <picture class="projects-content-project">
-                        <img src="./assets/img/fondo-notebook.jpg" alt="fondo-notebook">
-                        <!-- spinner -->
-                        <div class="lds-ripple"><div></div><div></div></div>
-
+                    </article>
+                    <article class="content-project">
+                        <picture class="content-image">
+                            <img src="./assets/img/projectImages/gifos.jpg" alt="fondo-notebook">
+                            <!-- spinner -->
+                            <div class="lds-ripple"><div></div><div></div></div>
+                        </picture>    
                         <div class="text-project">
-                            <h2>Proyecto</h2>
-                            <p> texto </p>
-                            <button>IR A PAGINA</button>
+                            <h4>GifOs</h4>
+                            <p> HTML - CSS - SASS - JS </p>
+                            <div class="content-buttons">
+                                <a href="https://bit.ly/2FShz47" class="button" target="_blank">
+                                    <i class="fas fa-globe-americas"></i>
+                                    Website
+                                </a>
+                                <a href="https://bit.ly/2MmKqNp" class="button" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    Repositorio
+                                </a>
+                            </div>    
                         </div>
-                    </picture>
-                    <picture class="projects-content-project">
-                        <img src="./assets/img/fondo-notebook.jpg" alt="fondo-notebook">
-                        <!-- spinner -->
-                        <div class="lds-ripple"><div></div><div></div></div>
-
+                    </article>
+                    <article class="content-project">
+                        <picture class="content-image">
+                            <img src="./assets/img/projectImages/ApiDelailah.jpg" alt="fondo-notebook">
+                            <!-- spinner -->
+                            <div class="lds-ripple"><div></div><div></div></div>
+                        </picture>    
                         <div class="text-project">
-                            <h2>Proyecto</h2>
-                            <p> texto </p>
-                            <button>IR A PAGINA</button>
+                            <h4>API Delailah Resto</h4>
+                            <p> NodeJS - Express - MySql </p>
+                            <div class="content-buttons">
+                                <a href="" class="button" target="_blank">
+                                    <i class="fas fa-globe-americas"></i>
+                                    Website
+                                </a>
+                                <a href="https://bit.ly/304Gjhc" class="button" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    Repositorio
+                                </a>
+                            </div>    
                         </div>
-                    </picture>
-                </article>
+                    </article>
+                </div>
             </section>
 
-            <article class="contact">
-                <h3>Contacto</h3>
+            <article class="contact" id="contact">
+                <h3 id="contact-title">Contacto</h3>
+                <p class="contact-farewell">
+                    <span>¡Gracias por visitarme!</span> Te envito a que trabajemos juntos, 
+                    para ello puedes contactarme a través
+                    de los siguientes medios:
+                </p>
                 <div class="content-contacts">
                     <div class="content-contacts-icons">
-                        <a href="#"><i class="far fa-envelope"></i></a>
+                        <a href="mailto:leandro.ecabello@gmail.com?Subject=Consulta%20por%20servicios">
+                            <i class="far fa-envelope"></i>
+                            Escríbeme
+                        </a>
                     </div>
                     <div class="content-contacts-icons">
-                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="https://bit.ly/2zOIdaP" target="_blank">
+                            <i class="fab fa-github"></i>
+                            Sígueme
+                        </a>
                     </div>
                     <div class="content-contacts-icons">
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://bit.ly/2Xbb9Sm" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                            Sígueme
+                        </a>
                     </div>
                 </div>
             </article>

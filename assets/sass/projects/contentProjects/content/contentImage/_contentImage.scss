@@ -1,0 +1,16 @@
+.content-image{
+    height: 100%;
+    img{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        filter: grayscale(0.5);
+    }
+    .lds-ripple{
+        margin-left: -10%;
+        margin-top: 35%;
+        position: absolute;
+        z-index: -1;
+    }
+}
+ 
