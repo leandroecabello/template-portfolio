@@ -1,10 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portfolio</title>
-        <!-- <link rel="shortcut icon" type="image/x-icon" href="assets/logo/logo.ico"> -->
+        <title>Leandro E. Cabello | Portafolio</title>
+        <!-- favicon -->
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./assets/img/icons/apple-touch-icon.png"
+        >
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/img/icons/favicon-32x32.png"
+        >
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./assets/img/icons/favicon-16x16.png"
+        >
+        <link rel ="manifest" href="./assets/img/icons/site.webmanifest">
+        <link rel="shortcut icon" type="image/x-icon" href="assets/img/icons/favicon.ico">
         <!-- fonts family -->
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
         <!-- CSS -->
@@ -28,9 +47,9 @@
             </div>
             <nav class="header-navbar">
                 <ul class="menu">
-                    <li><a href="#about-me" class="linkMenu">About Me</a></li>
-                    <li><a href="#project" class="linkMenu">Projects</a></li>
-                    <li><a href="#contact" class="linkMenu">Contact</a></li>
+                    <li><a href="#about-me" class="linkMenu">Sobre Mí</a></li>
+                    <li><a href="#project" class="linkMenu">Proyectos</a></li>
+                    <li><a href="#contact" class="linkMenu">Contacto</a></li>
                 </ul>
             </nav>
         </header>
@@ -56,20 +75,21 @@
         </section>
         
         <main class="container">
-            <article class="aboutMe" id="about-me">
-                <h3 id="aboutMe-title">About Me</h3>
+            <section class="aboutMe" id="about-me">
+                <h3 id="aboutMe-title">Sobre Mí</h3>
                 <div class="aboutMe-content">
-                    <p>
-                        Argentino, de Córdoba capital. Un
-                        papá fulltime que disfruta pasar tiempo con 
-                        su familia. Fanatico del futbol y el asado. 
-                        Un apasionado de la tecnología que comenzo a programar por 
-                        hobby y le gustaría ayudarte a llevar ese proyecto, idea, producto,
-                        negocio, etc. a una plataforma online buscando la 
-                        mejor solución y adaptabilidad. 
-                    </p>
+                    <article class="aboutMe-content-info">
+                        <h4>Un poco sobre mí . . .</h4>      
+                        <p>
+                            Soy Argentino, de Córdoba capital.
+                            Papá fulltime que disfruta jugar con su hijo y pasar el 
+                            tiempo en familia. Fanatico del futbol y del asado. 
+                            Un apasionado de la tecnología que comenzo a programar por 
+                            hobby y hoy es Desarrollador Web Full Stack. 
+                        </p>
+                    </article>
                 
-                    <div class="aboutMe-content-skills">
+                    <article class="aboutMe-content-skills">
                         <h4 id="aboutMe-content-skills-title">SKILLS</h4>
                         <div class="content-skill-items">
                             <div class="skill-items">
@@ -109,9 +129,9 @@
                                 <p>GIT</p>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>    
-            </article>
+            </section>
 
             <section class="projects" aria-label="project section" id="project">
                 <h3 id="project-title">Proyectos</h3>
@@ -168,7 +188,7 @@
                             <h4>API Delailah Resto</h4>
                             <p> NodeJS - Express - MySql </p>
                             <div class="content-buttons">
-                                <a href="" class="button" target="_blank">
+                                <a href="https://bit.ly/2FVnZPV" class="button" target="_blank">
                                     <i class="fas fa-globe-americas"></i>
                                     Website
                                 </a>
@@ -193,19 +213,19 @@
                     <div class="content-contacts-icons">
                         <a href="mailto:leandro.ecabello@gmail.com?Subject=Consulta%20por%20servicios">
                             <i class="far fa-envelope"></i>
-                            Escríbeme
+                            <!-- Escríbeme -->
                         </a>
                     </div>
                     <div class="content-contacts-icons">
                         <a href="https://bit.ly/2zOIdaP" target="_blank">
                             <i class="fab fa-github"></i>
-                            Sígueme
+                            <!-- Sígueme -->
                         </a>
                     </div>
                     <div class="content-contacts-icons">
                         <a href="https://bit.ly/2Xbb9Sm" target="_blank">
                             <i class="fab fa-linkedin"></i>
-                            Sígueme
+                            <!-- Sígueme -->
                         </a>
                     </div>
                 </div>

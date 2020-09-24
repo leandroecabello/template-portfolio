@@ -6,15 +6,21 @@
         align-items: center;
         margin-right: 50px;
         margin-left: 100px;
-        p{
+        .aboutMe-content-info{
             width: 100%;
-            
+            text-align: left;
+            margin: 15px;
+            h4{
+                display: block;
+            }
+            p{
+                margin-top: 5vh;
+                font-size: 1.2rem;
+                line-height: 1.8rem;
+            }            
         }
         .aboutMe-content-skills {
             width: 100%;
-            h4{
-                font-size: 1.2rem;
-            }
             .content-skill-items{
                 display: flex;
                 flex-wrap: wrap;
@@ -23,7 +29,7 @@
                     width: 110px;
                     height: 100px;
                     align-items: center;
-                    margin-top: 2vh;
+                    //margin-top: 2vh;
                     margin-right: 5px;
                     margin-left: 5%;
                     margin-bottom: 3%;

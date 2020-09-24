@@ -1,8 +1,5 @@
 .aboutMe-content-skills {
     margin: 15px;
-    h4{
-        font-size: 1.2rem;
-    }
     .content-skill-items{
         display: flex;
         flex-wrap: wrap;
@@ -19,8 +16,8 @@
             margin-bottom: 3%;
             i{
                 font-size: 2rem;
-                margin-top: 3vh;
-                margin-bottom: 2vh;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
                 color: $color2;
             }
             p{
