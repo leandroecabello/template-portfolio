@@ -1,243 +1,272 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Leandro E. Cabello | Portafolio</title>
-        <!-- favicon -->
-        <link
-            rel="apple-touch-icon"
-            sizes="180x180"
-            href="./assets/img/icons/apple-touch-icon.png"
-        >
-        <link
-            rel="icon"
-            type="image/png"
-            sizes="32x32"
-            href="./assets/img/icons/favicon-32x32.png"
-        >
-        <link
-            rel="icon"
-            type="image/png"
-            sizes="16x16"
-            href="./assets/img/icons/favicon-16x16.png"
-        >
-        <link rel ="manifest" href="./assets/img/icons/site.webmanifest">
-        <link rel="shortcut icon" type="image/x-icon" href="assets/img/icons/favicon.ico">
-        <!-- fonts family -->
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
-        <!-- CSS -->
-        <link rel="stylesheet" href="./assets/css/styles.css"> 
-        <!-- SCRIPTS  -->
-        <!-- font awesome -->
-        <script src="https://kit.fontawesome.com/d99267f501.js" crossorigin="anonymous"></script>
-        <!-- ScrollReveal  -->
-        <script src="https://unpkg.com/scrollreveal"></script>
-    </head>
-    <body>
-        <header id="header">
-            <div class="header-logo">
-                <a href="#" class="logo">LC</a>
 
-                <div class="hamburger">
-                    <div class="_layer -top"></div>
-                    <div class="_layer -mid"></div>
-                    <div class="_layer -bottom"></div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leandro E. Cabello | Portafolio</title>
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/icons/favicon-16x16.png">
+    <link rel="manifest" href="./assets/img/icons/site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/icons/favicon.ico">
+    <!-- fonts family -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <!-- SCRIPTS  -->
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/d99267f501.js" crossorigin="anonymous"></script>
+    <!-- ScrollReveal  -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+    <header id="header">
+        <div class="header-logo">
+            <a href="#" class="logo">LC</a>
+
+            <div class="hamburger">
+                <div class="_layer -top"></div>
+                <div class="_layer -mid"></div>
+                <div class="_layer -bottom"></div>
+            </div>
+        </div>
+        <nav class="header-navbar">
+            <ul class="menu">
+                <li><a href="#about-me" class="linkMenu">Sobre Mí</a></li>
+                <li><a href="#project" class="linkMenu">Proyectos</a></li>
+                <li><a href="#contact" class="linkMenu">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="coverPage" aria-label="cover section">
+        <div class="coverPage-background">
+            <div class="coverPage-image">
+                <img src="./assets/img/profilePhoto/DSC_0065.jpg" alt="my_image">
+                <!-- spinner -->
+                <div class="lds-ripple">
+                    <div></div>
+                    <div></div>
                 </div>
             </div>
-            <nav class="header-navbar">
-                <ul class="menu">
-                    <li><a href="#about-me" class="linkMenu">Sobre Mí</a></li>
-                    <li><a href="#project" class="linkMenu">Proyectos</a></li>
-                    <li><a href="#contact" class="linkMenu">Contacto</a></li>
-                </ul>
-            </nav>
-        </header>
+            <div class="coverPage-info">
+                <h3 id="coverPage-info-greeting">
+                    ¡HOLA!
+                </h3>
+                <h1 id="coverPage-info-presentation">
+                    Soy Leandro
+                    <strong>Cabello</strong>
+                </h1>
+                <span id="coverPage-info-profession">&lt; Backend Developer &gt;</span>
+            </div>
+        </div>
+    </section>
 
-        <section class="coverPage" aria-label="cover section">
-            <div class="coverPage-background">
-                <div class="coverPage-image">
-                    <img src="./assets/img/profilePhoto/DSC_0065.jpg" alt="my_image">
-                    <!-- spinner -->
-                    <div class="lds-ripple"><div></div><div></div></div>
-                </div>
-                <div class="coverPage-info">
-                    <h3 id="coverPage-info-greeting">
-                        ¡HOLA!
-                    </h3>
-                    <h1 id="coverPage-info-presentation">
-                        Soy Leandro 
-                        <strong>Cabello</strong>
-                    </h1>
-                    <span id="coverPage-info-profession">&lt; Backend Developer &gt;</span>
-                </div>
-            </div>    
+    <main class="container">
+        <section class="aboutMe" id="about-me">
+            <h3 id="aboutMe-title">Sobre Mí</h3>
+            <div class="aboutMe-content">
+                <article class="aboutMe-content-info">
+                    <h4>Un poco sobre mí . . .</h4>
+                    <p>
+                        Soy Argentino, de Córdoba capital.
+                        Un Papá que disfruta jugar con su hijo y pasar el
+                        tiempo en familia. Fanatico del futbol y del asado.
+                        Un apasionado de la tecnología que comenzo a programar por
+                        hobby y hoy es Desarrollador Web Full Stack.
+                    </p>
+                </article>
+
+                <article class="aboutMe-content-skills">
+                    <h4 id="aboutMe-content-skills-title">SKILLS</h4>
+                    <div class="content-skill-items">
+                        <div class="skill-items">
+                            <i class="fab fa-html5"></i>
+                            <p>HTML5</p>
+                        </div>
+                        <div class="skill-items">
+                            <i class="fab fa-css3-alt"></i>
+                            <p>CSS3</p>
+                        </div>
+                        <div class="skill-items">
+                            <i class="fab fa-sass"></i>
+                            <p>SASS</p>
+                        </div>
+                        <div class="skill-items">
+                            <i class="fab fa-bootstrap"></i>
+                            <p>BOOTSTRAP</p>
+                        </div>
+                        <div class="skill-items">
+                            <i class="fab fa-js-square"></i>
+                            <p>JAVASCRIPT</p>
+                        </div>
+                        <div class="skill-items">
+                            <i class="fab fa-angular"></i>
+                            <p>ANGULAR</p>
+                        </div>
+                        <div class="skill-items">
+                            <i class="fab fa-node-js"></i>
+                            <p>NODEJS</p>
+                        </div>
+                        <div class="skill-items">
+                            <i class="fas fa-database"></i>
+                            <p>MONGODB</p>
+                        </div>
+                        <div class="skill-items">
+                            <i class="fas fa-database"></i>
+                            <p>MYSQL</p>
+                        </div>
+                        <div class="skill-items">
+                            <i class="fab fa-git-alt"></i>
+                            <p>GIT</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
         </section>
-        
-        <main class="container">
-            <section class="aboutMe" id="about-me">
-                <h3 id="aboutMe-title">Sobre Mí</h3>
-                <div class="aboutMe-content">
-                    <article class="aboutMe-content-info">
-                        <h4>Un poco sobre mí . . .</h4>      
-                        <p>
-                            Soy Argentino, de Córdoba capital.
-                            Papá fulltime que disfruta jugar con su hijo y pasar el 
-                            tiempo en familia. Fanatico del futbol y del asado. 
-                            Un apasionado de la tecnología que comenzo a programar por 
-                            hobby y hoy es Desarrollador Web Full Stack. 
-                        </p>
-                    </article>
-                
-                    <article class="aboutMe-content-skills">
-                        <h4 id="aboutMe-content-skills-title">SKILLS</h4>
-                        <div class="content-skill-items">
-                            <div class="skill-items">
-                                <i class="fab fa-html5"></i>
-                                <p>HTML5</p>
-                            </div>
-                            <div class="skill-items">
-                                <i class="fab fa-css3-alt"></i>
-                                <p>CSS3</p>
-                            </div>
-                            <div class="skill-items">
-                                <i class="fab fa-sass"></i>
-                                <p>SASS</p>
-                            </div>
-                            <div class="skill-items">
-                                <i class="fab fa-bootstrap"></i>
-                                <p>BOOTSTRAP</p>
-                            </div>
-                            <div class="skill-items">
-                                <i class="fab fa-js-square"></i>
-                                <p>JAVASCRIPT</p>
-                            </div>
-                            <div class="skill-items">
-                                <i class="fab fa-node-js"></i>
-                                <p>NODEJS</p>
-                            </div>
-                            <div class="skill-items">
-                                <i class="fas fa-database"></i>
-                                <p>MONGODB</p>
-                            </div>
-                            <div class="skill-items">
-                                <i class="fas fa-database"></i>
-                                <p>MYSQL</p>
-                            </div>
-                            <div class="skill-items">
-                                <i class="fab fa-git-alt"></i>
-                                <p>GIT</p>
-                            </div>
-                        </div>
-                    </article>
-                </div>    
-            </section>
 
-            <section class="projects" aria-label="project section" id="project">
-                <h3 id="project-title">Proyectos</h3>
-                <div class="projects-content">
-                    <article class="content-project">
-                        <picture class="content-image">
-                            <img src="./assets/img/projectImages/podcast.jpg" alt="fondo-notebook">
-                            <!-- spinner -->
-                            <div class="lds-ripple"><div></div><div></div></div>
-                        </picture>    
-                        <div class="text-project">
-                            <h4> Podcast Channel</h4>
-                            <p> HTML - CSS - SASS </p>
-                            <div class="content-buttons">
-                                <a href="https://bit.ly/3mGciwV" class="button" target="_blank">
-                                    <i class="fas fa-globe-americas"></i>
-                                    Website
-                                </a>
-                                <a href="https://bit.ly/2FVHFCT" class="button" target="_blank">
-                                    <i class="fab fa-github"></i>
-                                    Repositorio
-                                </a>
-                            </div>    
+        <section class="projects" aria-label="project section" id="project">
+            <h3 id="project-title">Proyectos</h3>
+            <div class="projects-content">
+                <article class="content-project">
+                    <picture class="content-image">
+                        <img src="./assets/img/projectImages/podcast.jpg" alt="fondo-notebook">
+                        <!-- spinner -->
+                        <div class="lds-ripple">
+                            <div></div>
+                            <div></div>
                         </div>
-                    </article>
-                    <article class="content-project">
-                        <picture class="content-image">
-                            <img src="./assets/img/projectImages/gifos.jpg" alt="fondo-notebook">
-                            <!-- spinner -->
-                            <div class="lds-ripple"><div></div><div></div></div>
-                        </picture>    
-                        <div class="text-project">
-                            <h4>GifOs</h4>
-                            <p> HTML - CSS - SASS - JS </p>
-                            <div class="content-buttons">
-                                <a href=" https://bit.ly/2FShz47" class="button" target="_blank">
-                                    <i class="fas fa-globe-americas"></i>
-                                    Website
-                                </a>
-                                <a href="https://bit.ly/2MmKqNp" class="button" target="_blank">
-                                    <i class="fab fa-github"></i>
-                                    Repositorio
-                                </a>
-                            </div>    
+                    </picture>
+                    <div class="text-project">
+                        <h4> Podcast Channel</h4>
+                        <p> HTML - CSS - SASS </p>
+                        <div class="content-buttons">
+                            <a href="https://bit.ly/3mGciwV" class="button" target="_blank">
+                                <i class="fas fa-globe-americas"></i>
+                                Website
+                            </a>
+                            <a href="https://bit.ly/2FVHFCT" class="button" target="_blank">
+                                <i class="fab fa-github"></i>
+                                Repositorio
+                            </a>
                         </div>
-                    </article>
-                    <article class="content-project">
-                        <picture class="content-image">
-                            <img src="./assets/img/projectImages/ApiDelailah.jpg" alt="fondo-notebook">
-                            <!-- spinner -->
-                            <div class="lds-ripple"><div></div><div></div></div>
-                        </picture>    
-                        <div class="text-project">
-                            <h4>API Delailah Resto</h4>
-                            <p> NodeJS - Express - MySql </p>
-                            <div class="content-buttons">
-                                <a href="https://notfound-404.firebaseapp.com/" class="button" target="_blank">
-                                    <i class="fas fa-globe-americas"></i>
-                                    Website
-                                </a>
-                                <a href="https://bit.ly/304Gjhc" class="button" target="_blank">
-                                    <i class="fab fa-github"></i>
-                                    Repositorio
-                                </a>
-                            </div>    
+                    </div>
+                </article>
+                <article class="content-project">
+                    <picture class="content-image">
+                        <img src="./assets/img/projectImages/gifos.jpg" alt="fondo-notebook">
+                        <!-- spinner -->
+                        <div class="lds-ripple">
+                            <div></div>
+                            <div></div>
                         </div>
-                    </article>
-                </div>
-            </section>
+                    </picture>
+                    <div class="text-project">
+                        <h4>GifOs</h4>
+                        <p> HTML - CSS - SASS - JS </p>
+                        <div class="content-buttons">
+                            <a href=" https://bit.ly/2FShz47" class="button" target="_blank">
+                                <i class="fas fa-globe-americas"></i>
+                                Website
+                            </a>
+                            <a href="https://bit.ly/2MmKqNp" class="button" target="_blank">
+                                <i class="fab fa-github"></i>
+                                Repositorio
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <article class="content-project">
+                    <picture class="content-image">
+                        <img src="./assets/img/projectImages/ApiDelailah.jpg" alt="fondo-notebook">
+                        <!-- spinner -->
+                        <div class="lds-ripple">
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </picture>
+                    <div class="text-project">
+                        <h4>API Delailah Resto</h4>
+                        <p> NodeJS - Express - MySql </p>
+                        <div class="content-buttons">
+                            <a href="https://notfound-404.firebaseapp.com/" class="button" target="_blank">
+                                <i class="fas fa-globe-americas"></i>
+                                Website
+                            </a>
+                            <a href="https://bit.ly/304Gjhc" class="button" target="_blank">
+                                <i class="fab fa-github"></i>
+                                Repositorio
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <article class="content-project">
+                    <picture class="content-image">
+                        <img src="./assets/img/projectImages/Angular-image-gallery.jpg" alt="angular-project">
+                        <!-- spinner -->
+                        <div class="lds-ripple">
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </picture>
+                    <div class="text-project">
+                        <h4>Angular Image Gallery</h4>
+                        <p> MEAN Stack + Bootstrap</p>
+                        <div class="content-buttons">
+                            <a href="https://bit.ly/2Tzoq5C" class="button" target="_blank">
+                                <i class="fas fa-globe-americas"></i>
+                                Website
+                            </a>
+                            <a href="https://bit.ly/3kPsFWA" class="button" target="_blank">
+                                <i class="fab fa-github"></i>
+                                Repositorio
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
 
-            <article class="contact" id="contact">
-                <h3 id="contact-title">Contacto</h3>
-                <p class="contact-farewell">
-                    <span>¡Gracias por visitarme!</span> Te envito a que trabajemos juntos, 
-                    para ello puedes contactarme a través
-                    de los siguientes medios:
-                </p>
-                <div class="content-contacts">
-                    <div class="content-contacts-icons">
-                        <a href="mailto:leandro.ecabello@gmail.com?Subject=Consulta%20por%20servicios">
-                            <i class="far fa-envelope"></i>
-                            <!-- Escríbeme -->
-                        </a>
-                    </div>
-                    <div class="content-contacts-icons">
-                        <a href="https://bit.ly/2zOIdaP" target="_blank">
-                            <i class="fab fa-github"></i>
-                            <!-- Sígueme -->
-                        </a>
-                    </div>
-                    <div class="content-contacts-icons">
-                        <a href="https://bit.ly/2Xbb9Sm" target="_blank">
-                            <i class="fab fa-linkedin"></i>
-                            <!-- Sígueme -->
-                        </a>
-                    </div>
-                </div>
-            </article>
-        </main>
-
-        <footer>
-            <p> Copyright &copy; 2020 <a href="#">Leandro E. Cabello</a> <br> 
-                All Rigths Reserve
+        <article class="contact" id="contact">
+            <h3 id="contact-title">Contacto</h3>
+            <p class="contact-farewell">
+                <span>¡Gracias por visitarme!</span> Te envito a que trabajemos juntos,
+                para ello puedes contactarme a través
+                de los siguientes medios:
             </p>
-        </footer>
+            <div class="content-contacts">
+                <div class="content-contacts-icons">
+                    <a href="mailto:leandro.ecabello@gmail.com?Subject=Consulta%20por%20servicios">
+                        <i class="far fa-envelope"></i>
+                        <!-- Escríbeme -->
+                    </a>
+                </div>
+                <div class="content-contacts-icons">
+                    <a href="https://bit.ly/2zOIdaP" target="_blank">
+                        <i class="fab fa-github"></i>
+                        <!-- Sígueme -->
+                    </a>
+                </div>
+                <div class="content-contacts-icons">
+                    <a href="https://bit.ly/2Xbb9Sm" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                        <!-- Sígueme -->
+                    </a>
+                </div>
+            </div>
+        </article>
+    </main>
 
-        <script src="./assets/js/main.js"></script>
-    </body>
+    <footer>
+        <p> Copyright &copy; 2020 <a href="#">Leandro E. Cabello</a> <br>
+            All Rigths Reserve
+        </p>
+    </footer>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
 </html>
